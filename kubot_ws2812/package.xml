@@ -3,7 +3,7 @@
   <name>kubot_ws2812</name>
   <version>0.0.0</version>
   <description>
-  The KUBOT Robot led control package.
+  KUBOT Robot led control package.
   </description>
   <maintainer email="YunHong.Wang@ShanYangYe.com">Yun Hong</maintainer>
 

@@ -21,7 +21,7 @@ You can look into `led_control.py` to see what else functions you can use to wri
 Use ROS launch file to run LED python [scripts]()
 ```xml
 <launch>
-	<node name="led_control" pkg="kubot_ws2812" type="led_control.py" args="-p /dev/kubot_ws2812 -m 5">
+	<node name="led_control" pkg="kubot_ws2812" type="led_control.py" args="-p /dev/kubot_led -m 5">
 	</node>
 </launch>
 ```

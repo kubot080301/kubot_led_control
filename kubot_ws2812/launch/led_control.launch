@@ -2,11 +2,3 @@
 	<node name="led_control" pkg="kubot_ws2812" type="led_control.py" args="-p /dev/kubot_led -m 6">
 	</node>
 </launch>
-
-
-
-
-
-
-
-
