@@ -3,8 +3,6 @@ import serial  # pip install pyserial
 import time
 import sys
 import getopt
-zz
-
 
 class Strip:
     def __init__(self, led_port, num):
