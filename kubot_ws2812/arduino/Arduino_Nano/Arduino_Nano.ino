@@ -34,9 +34,9 @@ void setup() {
     strip4.setPixelColor(i, 100, 20, 0); // default amber color
   }
   strip1.show();
-  strip1.show();
-  strip1.show();
-  strip1.show();
+  strip2.show();
+  strip3.show();
+  strip4.show();
 
   i = 0;
   r = 0;
