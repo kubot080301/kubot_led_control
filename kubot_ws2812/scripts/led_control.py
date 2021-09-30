@@ -5,7 +5,7 @@ import sys, getopt
 
 class Strip:
     def __init__(self, led_port, num):
-        # led_port : port for the KUBOT LED ttyUSB
+        # led_port : port for the NeuronBot LED ttyUSB
         # baudrate : baud rate
         # num : the number of LED units
         baudrate=115200
@@ -17,7 +17,7 @@ class Strip:
             self.read=a.decode("utf-8")
             print(self.read)
         else :
-            print('Kubot LED port is not opened.')
+            print('NeuronBot LED port is not opened.')
 
     def setPixelColor(self,i,r,g,b):
         ## i : the serial number for a LED unit, starting from No.0
@@ -246,7 +246,7 @@ class Strip:
 
 
 def main(argv):
-    port = '/dev/kubot_led'
+    port = '/dev/neuronbotLED'
     num = 10
     mode = 5
     try:
