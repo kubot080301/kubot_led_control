@@ -75,11 +75,10 @@ void loop() {
       strip1.show();
       strip2.show();
       strip3.show();
-      strip4.show();}
-      inputString = "";
-      stringComplete = false;
-    
-
+      strip4.show();
+    }
+    inputString = "";
+    stringComplete = false;
   }
 }
 
