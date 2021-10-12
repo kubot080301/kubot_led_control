@@ -5,7 +5,7 @@
 #define PIN_3 4 
 #define PIN_4 5 
 
-int num = 10; // number of led units, the no.0 unit is the one closest to the wires
+int num = 15; // number of led units, the no.0 unit is the one closest to the wires
 Adafruit_NeoPixel strip1 = Adafruit_NeoPixel(num, PIN_1, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel strip2 = Adafruit_NeoPixel(num, PIN_2, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel strip3 = Adafruit_NeoPixel(num, PIN_3, NEO_GRB + NEO_KHZ800);

@@ -244,7 +244,7 @@ class Strip:
 
 def main(argv):
     port = '/dev/kubot_led'
-    num = 10
+    num = 15
     mode = 5
     try:
         opts, args = getopt.getopt(argv, "hp:n:m:", ["port=", "num=", "mode="])

@@ -1,15 +1,6 @@
 <launch>
-
 	<arg name="port" default="/dev/kubot_led"/>
-	<arg name="mode" default="10" />
-
-
-	<node name="led_control" pkg="kubot_ws2812" type="led_control2.py" name="led_control" output="screen">
-		<param name="prot" value="$(arg port)"/>
-		<param name="num" value="10"/>
-		<param name="model" value="$(arg mode)"/>
-		<param name="baudrate" value="115200"/>
-		
-
+	<arg name="mode" default="6"/>
+	<node name="led_control" pkg="kubot_ws2812" type="led_control.py" args="-p $(arg port) -m $(arg mode)">
 	</node>
 </launch>
