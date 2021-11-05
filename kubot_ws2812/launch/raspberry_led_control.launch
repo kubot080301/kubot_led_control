@@ -1,0 +1,4 @@
+<launch>
+	<node name="led_control" pkg="kubot_ws2812" type="raspberrypi_led_control.py">
+	</node>
+</launch>
