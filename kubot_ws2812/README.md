@@ -25,3 +25,13 @@ Use ROS launch file to run LED python [scripts]()
 	</node>
 </launch>
 ```
+
+### Raspberry Pi
+
+```sh
+sudo pip install rpi_ws281x
+```
+
+```sh
+	roslaunch kubot_ws2812 raspberrypi_led_control.launch
+```
